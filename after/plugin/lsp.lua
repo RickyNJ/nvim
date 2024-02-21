@@ -11,13 +11,14 @@ require("mason").setup()
 require("mason-lspconfig").setup {
     ensure_installed = {
         "pyright",
-        "gopls",
         "templ",
         "html",
         "tailwindcss",
-        "lua_ls",
         "omnisharp",
-        "jdtls"
+        "jdtls",
+        "gopls",
+        "terraformls",
+        "lua_ls"
     },
     handlers = {
         lsp_zero.default_setup,
