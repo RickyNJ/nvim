@@ -13,11 +13,7 @@ require("mason-lspconfig").setup {
         "pyright",
         "templ",
         "html",
-        "tailwindcss",
-        "omnisharp",
-        "jdtls",
         "gopls",
-        "terraformls",
         "lua_ls"
     },
     handlers = {

@@ -13,6 +13,15 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins ={
 
+-- debugging
+ "folke/trouble.nvim",
+ dependencies = { "nvim-tree/nvim-web-devicons" },
+ opts = {
+  -- your configuration comes here
+  -- or leave it empty to use the default settings
+  -- refer to the configuration section below
+ },
+
 -- lsp
 
 'williamboman/mason.nvim',
@@ -30,6 +39,7 @@ local plugins ={
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
 },
+{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 
 -- files
 
