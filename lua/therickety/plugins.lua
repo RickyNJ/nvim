@@ -56,11 +56,11 @@ local plugins ={
     },
     lazy = false,
 },
-'ThePrimeagen/harpoon',
-{
-    'nvim-telescope/telescope.nvim', tag = '0.1.5',
-    dependencies = { 'nvim-lua/plenary.nvim' }
-},
+-- 'ThePrimeagen/harpoon',
+-- {
+--     'nvim-telescope/telescope.nvim', tag = '0.1.5',
+--     dependencies = { 'nvim-lua/plenary.nvim' }
+-- },
 
 -- text editing
 
