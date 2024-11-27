@@ -14,7 +14,8 @@ require("mason-lspconfig").setup {
         "templ",
         "html",
         "gopls",
-        "lua_ls"
+        "lua_ls",
+        "clangd"
     },
     handlers = {
         lsp_zero.default_setup,

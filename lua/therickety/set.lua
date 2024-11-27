@@ -10,4 +10,4 @@ vim.opt.swapfile = false
 
 vim.filetype.add({ extension = { templ = "templ" } })
 
-
+vim.opt.linespace = 3

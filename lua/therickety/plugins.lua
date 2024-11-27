@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins ={
 
+
 -- debugging
  "folke/trouble.nvim",
  dependencies = { "nvim-tree/nvim-web-devicons" },
